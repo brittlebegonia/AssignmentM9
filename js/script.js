@@ -1,4 +1,4 @@
-// CREATE AN ARRAY OF EMPLOYEES
+// IMPORT EMPLOYEES
 import { loadEmployees } from "./modules/init.js"
 
 // GET DOM ELEMENTS
@@ -29,7 +29,7 @@ async function buildGrid() {
     document.querySelector("tbody").remove()
     // REBUILD THE TBODY FROM SCRATCH
     let tbody = document.createElement('tbody')
-    // LOOP THROUGH THE ARRAY OF EMPLOYEES
+    // LOOP THROUGH EMPLOYEES
     // REBUILDING THE ROW STRUCTURE
     for (let employee of employees) {
         tbody.innerHTML += 

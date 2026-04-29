@@ -1,5 +1,6 @@
 // CREATE AN ARRAY OF EMPLOYEES
-let arrEmployees = [
+// let arrEmployees =
+data/employees.json [
     [34123413, "Zak Ruvalcaba", 3424, "zak@vectacorp.com", "Executive"],
     [23424665, "Sally Smith", 2344, "sally@vectacorp.com", "Administrative"],
     [12341244, "Mark Martin", 5352, "mark@vectacorp.com", "Sales"],

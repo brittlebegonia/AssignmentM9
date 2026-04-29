@@ -17,6 +17,7 @@ empTable.addEventListener('click', (e) => {
             let rowIndex = e.target.parentNode.parentNode.rowIndex
             // REMOVE EMPLOYEE FROM TABLE
             empTable.deleteRow(rowIndex)
+            empCount.value = `(${empTable.rows.length - 1})`
         }
     }
 })

@@ -25,7 +25,7 @@ empTable.addEventListener('click', (e) => {
 async function buildGrid() {
     const employees = await loadEmployees()
     // REMOVE THE EXISTING SET OF ROWS BY REMOVING THE ENTIRE TBODY SECTION
-    empTable.lastElementChild.remove()
+    document.querySelector("tbody").remove()
     // REBUILD THE TBODY FROM SCRATCH
     let tbody = document.createElement('tbody')
     // LOOP THROUGH THE ARRAY OF EMPLOYEES
